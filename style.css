@@ -1,0 +1,48 @@
+
+body {
+  background-color: #fff8f0;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 40px;
+  color: #333;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffe6ee;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.photo {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.cry {
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+.account {
+  background: #ffc9d1;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.goal {
+  margin-top: 10px;
+}
+.buttons button {
+  background-color: #ff99aa;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.buttons button:hover {
+  background-color: #ff7799;
+}

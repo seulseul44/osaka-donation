@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>오사카 여행 모금</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="img/yesle.jpg" alt="예슬이 사진" class="photo">
+    <h1>🛫 오사카 가고싶다</h1>
+    <p class="cry">💸 하지만 돈이 없다 💸</p>
+    <div class="account">
+      ❤️ 여행 모금 계좌 ❤️<br>
+      <strong>농협 3511015459783 (김예슬)</strong>
+    </div>
+    <p class="goal">✈️ 비행기값 단돈 15만원</p>
+    <div class="buttons">
+      <button onclick="copyAccount()">계좌 복사하기</button>
+    </div>
+  </div>
+  <script>
+    function copyAccount() {
+      navigator.clipboard.writeText("3511015459783");
+      alert("계좌번호가 복사되었습니다!");
+    }
+  </script>
+</body>
+</html>
